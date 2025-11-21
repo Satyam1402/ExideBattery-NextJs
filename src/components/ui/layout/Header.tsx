@@ -2,9 +2,9 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
-
-import { Menu, X, Phone, Mail, ShoppingCart, Container } from 'lucide-react';
+import Container from '../Container';
 import Button from '../Button';
+import { Menu, X, Phone, Mail, ShoppingCart } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
+    <header className="bg-white shadow-lg sticky top-0 z-50" suppressHydrationWarning>
       {/* Top Contact Bar */}
       <div className="bg-blue-900 text-white py-2">
         <Container>
@@ -29,7 +29,7 @@ const Header = () => {
                 <Phone className="w-4 h-4" />
                 <span>+91 9876543210</span>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="hidden sm:flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
                 <span>info@exidebattery.com</span>
               </div>
@@ -87,6 +87,8 @@ const Header = () => {
             <button
               onClick={toggleMenu}
               className="lg:hidden p-2 rounded-md hover:bg-gray-100 transition-colors"
+              aria-label="Toggle navigation menu"
+              aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? (
                 <X className="w-6 h-6 text-gray-700" />
@@ -99,7 +101,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-200 animate-slide-up">
+          <div className="lg:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
               {navItems.map((item) => (
                 <Link
@@ -112,9 +114,9 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col space-y-3 pt-4 border-t border-gray-200">
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="flex items-center justify-center">
                   <ShoppingCart className="w-4 h-4 mr-2" />
-                  Get Quote
+                  <span>Get Quote</span>
                 </Button>
                 <Button size="sm">Call Now</Button>
               </div>

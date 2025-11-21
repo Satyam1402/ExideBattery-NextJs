@@ -9,8 +9,8 @@ import {
   MessageCircle,
   Camera,
   Play,
-  Container
 } from 'lucide-react';
+import Container from '../Container';
 
 const Footer = () => {
   return (

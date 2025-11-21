@@ -49,6 +49,56 @@ export const batteries: Battery[] = [
       technology: 'Tubular'
     },
     inStock: true
+  },
+  // Solar Battery Example
+  {
+    id: 'exide-solar-100ah',
+    name: 'Exide Solar 100Ah',
+    type: 'solar',
+    capacity: '100Ah',
+    voltage: '12V',
+    warranty: '36 months',
+    price: 9500,
+    originalPrice: 11000,
+    image: '/images/batteries/solar-100ah.jpg',
+    features: [
+      'Suitable for Solar Power Systems',
+      'Long Deep Discharge Life',
+      'Eco-Friendly Technology',
+      'Low Water Loss'
+    ],
+    specifications: {
+      dimensions: '410 x 176 x 233mm',
+      weight: '28 kg',
+      terminals: 'Top Terminal',
+      technology: 'Tubular'
+    },
+    inStock: true
+  },
+  // Motorcycle Battery Example
+  {
+    id: 'exide-bike-9ah',
+    name: 'Exide Xplore 9Ah',
+    type: 'motorcycle',
+    capacity: '9Ah',
+    voltage: '12V',
+    warranty: '24 months',
+    price: 1500,
+    originalPrice: 1800,
+    image: '/images/batteries/motorcycle-9ah.jpg',
+    features: [
+      'Maintenance Free',
+      'High Cranking Power',
+      'Leak-Proof Design',
+      'Vibration Resistant'
+    ],
+    specifications: {
+      dimensions: '151 x 87 x 107mm',
+      weight: '2.7 kg',
+      terminals: 'Top Terminal',
+      technology: 'VRLA'
+    },
+    inStock: true
   }
   // Add more batteries as needed
 ];

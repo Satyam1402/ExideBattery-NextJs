@@ -1,9 +1,10 @@
 // src/components/sections/Hero.tsx
 'use client';
 import { useState } from 'react';
-import { Star, Shield, Truck, Phone, ArrowRight, Battery, Container } from 'lucide-react';
+import { Star, Shield, Truck, Phone, ArrowRight, Battery } from 'lucide-react';
 import Button from '../Button';
 import { Card, CardContent } from '../Card';
+import Container from '../Container'; // ✅ Must be your own wrapper
 
 const Hero = () => {
   const [activeTab, setActiveTab] = useState('automotive');

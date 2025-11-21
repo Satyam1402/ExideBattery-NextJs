@@ -2,7 +2,7 @@
 export interface Battery {
   id: string;
   name: string;
-  type: 'automotive' | 'inverter' | 'motorcycle' | 'ups';
+  type: 'automotive' | 'inverter' | 'motorcycle' | 'ups' | 'solar';
   capacity: string;
   voltage: string;
   warranty: string;
