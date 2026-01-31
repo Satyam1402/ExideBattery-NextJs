@@ -1,0 +1,24 @@
+// Add this to any specific page where you want the chatbot
+// For example, in src/app/page.tsx
+
+import { useEffect } from 'react';
+
+export default function HomePage() {
+  useEffect(() => {
+    // Load chatbot only on this page
+    if (typeof window !== 'undefined') {
+      window.chatbotConfig = {
+        botId: 'ff8022b7-1c5b-49f8-a169-c85eaeea8c25'
+      };
+      
+      const script = document.createElement('script');
+      script.src = 'https://chatlyfy.com/widget/chatbot-widget.js';
+      script.async = true;
+      document.head.appendChild(script);
+    }
+  }, []);
+
+  return (
+    // Your page content
+  );
+}
