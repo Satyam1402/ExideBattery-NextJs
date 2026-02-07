@@ -2,12 +2,18 @@
 import { useEffect } from 'react';
 import Script from 'next/script';
 
+interface WindowWithChatbot extends Window {
+  chatbotConfig?: {
+    botId: string;
+  };
+}
+
 const ChatBot = () => {
   useEffect(() => {
     // Ensure window object exists
     if (typeof window !== 'undefined') {
-      (window as any).chatbotConfig = {
-        botId: 'ff8022b7-1c5b-49f8-a169-c85eaeea8c25'
+      (window as WindowWithChatbot).chatbotConfig = {
+        botId: 'ff8022b7-1c5b-49f8-a169-c85eaeea8c25',
       };
     }
   }, []);

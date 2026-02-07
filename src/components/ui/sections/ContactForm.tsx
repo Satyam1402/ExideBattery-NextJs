@@ -36,6 +36,7 @@ export default function ContactForm() {
                 placeholder="Your Name"
                 className="w-full border rounded px-4 py-2"
                 required
+                suppressHydrationWarning
               />
               <input
                 type="email"
@@ -45,6 +46,7 @@ export default function ContactForm() {
                 placeholder="Your Email"
                 className="w-full border rounded px-4 py-2"
                 required
+                suppressHydrationWarning
               />
               <textarea
                 name="message"

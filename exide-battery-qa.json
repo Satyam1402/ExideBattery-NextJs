@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What types of batteries do you sell?",
+    "answer": "We sell genuine Exide batteries for automotive (cars), inverter/UPS, motorcycles, trucks, and solar applications. All batteries come with 18-month warranty.",
+    "category": "Battery Products",
+    "tags": ["automotive", "inverter", "motorcycle", "truck", "solar", "genuine", "exide"]
+  },
+  {
+    "question": "What is the price of car batteries?",
+    "answer": "Car battery prices range from ₹3,000 to ₹12,000 depending on capacity (35Ah to 100Ah). Contact us at +91 9876543210 for exact pricing.",
+    "category": "Pricing & Payment",
+    "tags": ["price", "automotive", "cost", "quote", "contact"]
+  },
+  {
+    "question": "Do you provide free installation?",
+    "answer": "Yes, we provide free professional installation at your location for all battery purchases in Delhi NCR.",
+    "category": "Installation & Service",
+    "tags": ["installation", "free-service", "technician", "delhi", "ncr"]
+  },
+  {
+    "question": "What warranty do you provide?",
+    "answer": "All Exide batteries come with 18-month comprehensive warranty covering manufacturing defects and performance issues.",
+    "category": "Warranty & Support",
+    "tags": ["warranty", "18-month", "guarantee", "defect", "support"]
+  },
+  {
+    "question": "What areas do you cover for delivery?",
+    "answer": "We provide free delivery and installation across Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad.",
+    "category": "Delivery & Location",
+    "tags": ["delivery", "free-delivery", "delhi", "gurgaon", "noida", "faridabad"]
+  },
+  {
+    "question": "Do you have inverter batteries?",
+    "answer": "Yes, we have Exide inverter batteries from 100Ah to 220Ah capacity. Prices start from ₹8,000. Free installation included.",
+    "category": "Battery Products",
+    "tags": ["inverter", "capacity", "price", "installation"]
+  },
+  {
+    "question": "How long does installation take?",
+    "answer": "Battery installation typically takes 15-30 minutes. Our technicians will test the system after installation.",
+    "category": "Installation & Service",
+    "tags": ["installation", "time", "technician", "testing"]
+  },
+  {
+    "question": "How can I place an order?",
+    "answer": "Call us at +91 9876543210, WhatsApp, or visit our store. We accept cash, UPI, and card payments.",
+    "category": "Pricing & Payment",
+    "tags": ["order", "phone", "whatsapp", "payment", "cash", "upi"]
+  },
+  {
+    "question": "Do you accept online payments?",
+    "answer": "Yes, we accept UPI, credit/debit cards, and net banking. Cash on delivery also available.",
+    "category": "Pricing & Payment",
+    "tags": ["payment", "upi", "card", "netbanking", "cod"]
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "Defective batteries can be replaced within 7 days. Warranty claims processed as per Exide terms.",
+    "category": "Warranty & Support",
+    "tags": ["return", "defective", "replacement", "warranty"]
+  },
+  {
+    "question": "How do I know which battery I need?",
+    "answer": "Share your vehicle model or inverter specifications. Our experts will recommend the right battery capacity.",
+    "category": "Technical Help",
+    "tags": ["specifications", "capacity", "recommendation", "expert"]
+  },
+  {
+    "question": "My battery is not holding charge, what should I do?",
+    "answer": "This could indicate battery aging or charging system issues. Contact us for free diagnosis and replacement if under warranty.",
+    "category": "Technical Help",
+    "tags": ["charging", "diagnosis", "replacement", "warranty"]
+  },
+  {
+    "question": "How to maintain battery life?",
+    "answer": "Keep terminals clean, check water levels monthly (for conventional batteries), avoid deep discharge, and ensure proper charging.",
+    "category": "Technical Help",
+    "tags": ["maintenance", "terminals", "water-level", "charging"]
+  },
+  {
+    "question": "What are your working hours?",
+    "answer": "Monday to Saturday: 9:00 AM to 7:00 PM. Sunday: 10:00 AM to 5:00 PM. Emergency service available.",
+    "category": "Store Information",
+    "tags": ["hours", "timing", "emergency", "service"]
+  },
+  {
+    "question": "Where is your store located?",
+    "answer": "123 Battery Street, Industrial Area, Mumbai, Maharashtra 400001. Call for directions.",
+    "category": "Store Information",
+    "tags": ["location", "address", "directions"]
+  },
+  {
+    "question": "Are your batteries genuine?",
+    "answer": "Yes, we are authorized Exide dealers. All batteries are 100% genuine with proper warranty cards and serial numbers.",
+    "category": "Store Information",
+    "tags": ["genuine", "authorized", "warranty-card", "serial"]
+  }
+]
