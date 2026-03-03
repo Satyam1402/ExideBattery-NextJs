@@ -1,10 +1,11 @@
 // src/app/layout.tsx
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/ui/layout/Header';
 import Footer from '@/components/ui/layout/Footer';
-import ChatBot from '@/components/ui/ChatBot';
+// import ChatBot from '@/components/ui/ChatBot';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -33,7 +34,8 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <ChatBot />
+        {/* <ChatBot /> */}
+        <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="9dd158be-5630-42d4-8f93-96501eac2649"/>
       </body>
     </html>
   );
