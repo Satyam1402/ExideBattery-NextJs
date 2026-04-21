@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
-import './globals.css';
+// import './globals.css';
 import Header from '@/components/ui/layout/Header';
 import Footer from '@/components/ui/layout/Footer';
 // import ChatBot from '@/components/ui/ChatBot';
@@ -35,7 +35,8 @@ export default function RootLayout({
         </main>
         <Footer />
         {/* <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="9dd158be-5630-42d4-8f93-96501eac2649"/> */}
-        <script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="aa80945c-2ebc-4bb3-97ac-9c40b5795b92"></script>
+        {/* <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="aa80945c-2ebc-4bb3-97ac-9c40b5795b92"></Script> */}
+      <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="de843a24-517d-4bab-9b4e-094047e35775"></Script>
       </body>
     </html>
   );
