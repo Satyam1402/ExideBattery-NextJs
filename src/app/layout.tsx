@@ -35,8 +35,7 @@ export default function RootLayout({
         </main>
         <Footer />
        
-      {/* <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="de843a24-517d-4bab-9b4e-094047e35775" strategy="afterInteractive" /> */}
-       <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="6c322858-d440-4720-b9ab-48f5e32e43ac"></Script>
+        <Script src="https://chatlyfy.com/widget/chatlyfy-widget-loader.js" data-bot-id="7c2e494a-ad83-4b51-ad79-386d31eeed4c"></Script>
       </body>
     </html>
   );
